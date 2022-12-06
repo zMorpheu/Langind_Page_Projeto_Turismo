@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Turismo</title>
+    <link rel="stylesheet" href="../Css/global.css">
+    <link rel="stylesheet" href="../Css/orcamento.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <script src="../../Back/scripts.js"></script>
+</head>
+
+<body>
+
+    <body>
+        <section class="tit">
+            <p>Projeto Turismo</p>
+        </section>
+
+        <section>
+            <ul>
+                <hr>
+                <li><a a href="../../Index.html" class="mENU" title="Home">Home</a></li>
+                <li><a href="../Html/Sobre.html" class="mENU" title="Sobre">Quem somos</a></li>
+
+                <hr>
+            </ul>
+        </section>
+
+        <section class="container">
+            <h3 class="titulo">Gostaria de fazer um orçamento personalizado?</h3><br>
+
+            <div class="DivMae">
+
+                <div class="orcamento">
+                    <p class="texto1">Preencha este formulário e entraremos em contato com as propostas disponivies.</p>
+                    <br><br>
+
+                    <form>
+                        <table>
+                            <tr>
+                                <td><label for="name">Digite seu nome completo:</label></td>
+                                <td><input type="text" id="name" name="name" placeholder="Nome Completo"></td>
+                            </tr>
+
+                            <tr>
+                                <td><label for="contato">Telefone:</label></td>
+                                <td><input type="text" id="contato" name="contato" max="11" placeholder="(DD)9********">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><label for="email">Email:</label></td>
+                                <td><input type="text" id="email" name="email" placeholder="E-mail">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><label for="destino">Diga-nos qual o seu destino desejado:</label></td>
+                                <td><input type="text" id="destino" name="destino" placeholder="Destino"></td>
+                            </tr>
+
+                            <tr>
+                                <td><label for="periodo">Qual periodo da viagem? Inicio:</label></td>
+                                <td><input type="date" class="periodoi" id="periodoi" name="periodo"></td>
+                            </tr>
+
+                            <tr>
+                                <td><label for="periodo">Qual periodo da viagem? Fim:</label></td>
+                                <td><input type="date" class="periodof" id="periodof" name="periodo"></td>
+                            </tr>
+
+                            <tr>
+                                <td><label for="acomodacao">Acompanhantes? Se sim diga quantos. </label></td>
+                                <td><input type="number" class="acompanhantes" id="acompanhantes" name="acomodacao" placeholder="Nº de acompanhantes"></td>
+                            </tr>
+
+                            <tr>
+                                <td><button class="Env1" onclick="dadosOrcamento()" value = "Enviar">Enviar</button></td>
+                            </tr>
+
+                        </table>
+                    </form>
+                </div>
+
+                <div class="bloco">
+                    <img src="../../img/teste.png" class="imgr" alt="Finja que tem alguem aqui">
+
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <section class="rod">
+            <footer>
+                <br>
+                <h1 class="rod3">Gostaria de Receber novidades? Cadastre-se aqui!</h1></b>
+                <form>
+                    <div class="fom">
+                        <p>Nome:</p>
+                        <input type="text" id="fname" name="fname" placeholder="Digite seu Nome">
+                        <p>Telefone:</p>
+                        <input type="text" id="tFone" name="tFone" placeholder="(DDD)9*********">
+                        <p>Email:</p>
+                        <input type="text" id="eMail" name="email" placeholder="Digite seu email"><br>
+                    </div>
+                    <div>
+                        <button class="Env" onclick="mostrarDados()" value="Cadastre-se">Cadastre-se</button>
+                    </div>
+
+                </form>
+
+                <p>Desenvolvido orgulhosamente por Mushu. Todos os direitos reservados. © 2022</p><br>
+
+            </footer>
+        </section>
+    </body>
+
+</html>

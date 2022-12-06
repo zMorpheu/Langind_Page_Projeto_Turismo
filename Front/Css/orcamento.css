@@ -1,0 +1,95 @@
+.container {
+    padding: 3%;
+    width: 100%;
+}
+
+td {
+    padding: 1.5%;
+}
+
+input {
+    height: 3rem;
+    width: 12rem;
+    text-align: center;
+}
+
+.DivMae {
+    display: flex;
+    justify-content: center;
+}
+
+.orcamento {
+    background-color: rgb(0, 0, 0);
+    width: 90%;
+    padding: 5%;
+    border-radius: 10%;
+    margin: 1%;
+    font-size: 120%;
+    color: rgb(255, 255, 255);
+}
+
+.titulo {
+    font-family: 'open_sansbold';
+    font-size: 180%;
+    margin: 0% auto;
+    text-align: center;
+}
+
+.texto1 {
+    font-size: 130%;
+}
+
+.bloco {
+    width: 100%;
+    border-radius: 5%;
+    margin: 1%;
+    float: left;
+    padding: 10px;
+    height: 300px;
+}
+
+.imgr {
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 273%;
+    width: 100%;
+    border-radius: 10%;
+}
+
+.borda {
+    border-radius: 10rem;
+}
+
+.Env1 {
+    background-color: #ffd700;
+    color: rgb(0, 0, 0);
+    padding: 8% 15%;
+    margin: 1% 0%;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+@media (min-width: 56px) and (max-width: 900px) {
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .DivMae {
+        display: table;
+        margin: 0 auto;
+        width: 80%;
+    }
+    .orcamento {
+        margin-left: 5%;
+    }
+    .bloco {
+        display: table;
+        width: 93%;
+        margin: 0 auto;
+        margin-left: 3%;
+    }
+}
